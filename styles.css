@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #e2e5ea 0%, #7787a2 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+/* Container-like feel for tasks */
+h1 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 10px 0 15px 0;
+    color: #666;
+    font-style: italic;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Task 4: Input Field */
+input[type="text"] {
+    padding: 12px;
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+}
+
+#outputpara {
+    font-weight: bold;
+    color: #2c3e50;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 200px;
+    text-align: center;
+}
+
+/* Task 5: Hover Box */
+#hoverBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: crosshair;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Task 6: Specialized Button Color */
+#doubleClickButton {
+    background-color: #e67e22;
+}
+
+#doubleClickButton:hover {
+    background-color: #d35400;
+}
