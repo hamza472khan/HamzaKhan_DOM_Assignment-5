@@ -16,7 +16,7 @@ updateTextButton.addEventListener('click', function() {
 //Task- 3
 const changeColorButton = document.getElementById('changebgcolorbtn');
  changeColorButton.addEventListener('click', function(){
-    document.body.style.backgroundColor = 'gray';
+    document.body.style.backgroundColor = 'yellow';
  });
 
  //Task- 4

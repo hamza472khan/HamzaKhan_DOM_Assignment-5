@@ -7,13 +7,13 @@
 }
 
 body {
-    background: linear-gradient(135deg, #e2e5ea 0%, #7787a2 100%);
+    background: #a7a8aa;
     min-height: 100vh;
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #333;
+    color: #222121;
 }
 
 /* Container-like feel for tasks */
@@ -27,7 +27,7 @@ h1 {
 
 p {
     margin: 10px 0 15px 0;
-    color: #666;
+    color: #131212;
     font-style: italic;
 }
 
